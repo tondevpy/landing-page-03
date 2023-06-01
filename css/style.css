@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 6.43rem;
+    align-items: center;
+
+    background: rgb(29, 27, 27);
+}
+
+nav a {
+    padding: 0.62rem;
+    color: white;
+    margin-left: 3.12rem;
+
+}
+
+nav button {
+    border: none;
+    background: #136EF1;
+    padding: 0.62rem;
+    color: white;
+    margin-right: 3.12rem;
+}
+
+section {
+    background-color: #222dc3;
+    background-image: linear-gradient(180deg, #222dc3 0%, #001c79 30%, #000000 100%);
+    color: white;
+
+}
+
+.information p {
+    text-align: center;
+}
+
+.information h1 {
+    
+    text-align: center;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+
+p span {
+    background: black;
+    
+    color: white;
+}
+
+form {
+    margin-top: 3.12rem;
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.checkbox {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.checkbox label {
+    margin-right: 10px;
+}
+
+#login {
+    background: #136EF1;
+    border: none;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 50px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: #0D70F3;
+    
+}
+footer div{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    
+    flex-direction: column;
+    
+}
+footer div a{
+    color: white;
+    margin-bottom: 5px;
+}
+footer div p{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.endereco{
+    margin-top: 20px;
+}
+.direitos{
+    text-align: center;
+    background: #0D70F3;
+    color: rgb(66, 66, 66);
+}
+@media (max-width: 600px) {
+
+    nav div {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .information p {
+        margin-top: 20px;
+    }
+}
